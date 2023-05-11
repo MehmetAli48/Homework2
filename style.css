@@ -1,0 +1,72 @@
+body{
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("111.jpg");
+	background-size: contain;
+	
+}
+
+#ana {
+	margin-left:auto;
+	margin-right:auto;
+	width:920px;
+	border-radius:10px;
+	border:1px solid #336699;
+}
+
+#banner, #menü, #Hakkımızda, #footer {
+	margin:5px ;
+	border:1px solid #336699;
+	background-color:#ffffff;
+}
+
+#banner {
+	background:url("12y.png");
+	height:250px;
+}
+
+#menü {
+	float:left;
+	width:200px;
+	min-height:600px;
+}
+
+#menü a{
+	display:flex;
+	color:#000080;
+	border:1px solid #336699;
+	background:#aaccff;
+	padding:15px;
+	margin:20px;
+	box-shadow:0 0 5px #000000;
+	border-radius:10px;
+	text-decoration:none;
+}
+
+#menü a:hover{
+	background:#eeeeee;
+}
+#Hakkımızda {
+	float:left;
+	width:695px;
+	min-height:600px;
+}
+
+#Hakkımızda h1 {
+	font-size:30px;
+	color:#000080;
+}
+#Hakkımızda p {
+	text-align:center;
+	color:#336699;
+}
+#footer {
+	clear:both;
+	text-align:center;
+	padding: 15px;
+}
+#footer a{
+	color:#000080;
+	text-decoration:none;
+}
+#footer a:hover{
+	text-decoration:dotted;
+}
